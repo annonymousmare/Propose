@@ -1,0 +1,170 @@
+@media screen{
+body {
+    font-size: 15pt;
+    background: url(image1.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    overflow-x: hidden;
+}
+.container1{
+  width: 10%;
+  height: 300px;
+  background-image: url('image2.jpeg');
+  z-index: 400;
+}
+
+.container2{
+  width: 15%;
+  height: 300px;
+  background-image: url('image3.jpeg');
+  z-index: 200;
+}
+.container3{
+  width: 20%;
+  height: 300px;
+  background-image: url('image4.jpeg');
+  z-index: 100;
+}
+.container4{
+  width: 25%;
+  height: 300px;
+  background-image: url('image5.jpeg');
+  z-index: 1;
+}
+.sidebar{
+  padding-top: 60%;
+  position: relative;
+  right: 0;
+}
+.child{
+  position: absolute;
+  border: 0px;
+  border-radius: 10px 0px 0px 10px;
+  right: 0px;
+
+}
+
+.text{
+  word-wrap: wrap;
+  width: 60%;
+  height: 30%;
+  font-size: 15px;
+  background: #A2A2A29E;
+  border: 0px;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.lines{
+  padding-top: 60%;
+  float: left;
+} 
+
+.head{
+  font-family: cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.content{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#myContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  display: flex;
+}
+
+#myContainer h1 {
+  font-size: 2rem;
+  margin-top: 0;
+  color: red;
+}
+
+#myContainer p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: skyblue;
+}
+
+#myContainer button {
+  background-color: #f04;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#myContainer button:hover {
+  background-color: #e03;
+}
+
+.close{
+  position: top;
+  display: float;
+  float: right;
+  padding:10px;
+}
+}
+
+
+@media screen and (min-width: 900px) {
+  .container1{
+  width: 5%;
+  height: 400px;
+}
+
+.container2{
+  width: 10%;
+  height: 400px;
+}
+.container3{
+  width: 15%;
+  height: 400px;
+}
+.container4{
+  width: 20%;
+  height: 400px;
+}
+
+.text{
+  word-wrap: wrap;
+  width: 60%;
+  height: 30%;
+  font-size: 30px;
+  background: #A2A2A29E;
+  border: 0px;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.lines{
+  padding-top: 60%;
+  float: left;
+} 
+
+.head{
+  font-family: cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.content{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+}
